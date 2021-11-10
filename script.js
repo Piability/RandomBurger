@@ -33,7 +33,7 @@ const randomAnswer = () => {
 	if (restaurantList.length > 0) {
 		const randomR = Math.floor(Math.random() * restaurantList.length);
 		const randomA = Math.floor(Math.random() * answerOption.length);
-		answer.innerHTML = `${answerOption[randomA]} <span>${restaurantList[randomR]}</span>!`;
+		answer.innerHTML = `${answerOption[randomA]} <span>${restaurantList[randomR]}!</span>`;
 		restaurantList.splice(randomR, 1);
 	} else {
 		answer.innerHTML = `Przykro mi. Niestety skończyły nam się restauracje!`;
