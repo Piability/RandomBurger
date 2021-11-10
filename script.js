@@ -17,6 +17,12 @@ const restaurantList = [
 	'Fit Burger',
 	'Big Burger',
 	'Craft Burger',
+	'Bobby Burger',
+	'Fresh Gordon',
+	"Billy's American Restaurant",
+	'Małpa Bistro',
+	'Burger Story',
+	'Crudo',
 ];
 const answerOption = [
 	'Zapraszamy do',
