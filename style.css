@@ -24,18 +24,17 @@ body {
 	font-size: 30px;
 }
 .info h1 {
-	margin-bottom: 10px;
-	font-size: 60px;
+	margin-bottom: 30px;
+	font-size: 40px;
 }
 .burger-img {
-	position: relative;
-	height: 250px;
+	margin-top: 30px;
 	display: flex;
 	justify-content: center;
 	transition: jusify-content 1s;
 }
 .burger-img img {
-	position: absolute;
+	/* position: absolute; */
 	top: 30px;
 	width: 300px;
 	cursor: pointer;
@@ -55,7 +54,8 @@ body {
 
 .answer-area .answer {
 	margin-top: 30px;
-	font-size: 36px;
+	font-size: 28px;
+	text-align: center;
 }
 .answer-area .answer span {
 	font-weight: bold;
